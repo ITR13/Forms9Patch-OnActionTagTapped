@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+			 xmlns:f9P="clr-namespace:Forms9Patch;assembly=Forms9Patch"
+			 xmlns:forms9PatchLinkTest="clr-namespace:Forms9Patch_Link_Test;assembly=Forms9Patch_Link_Test"
+			 mc:Ignorable="d"
+             x:Class="Forms9Patch_Link_Test.MainPage" x:DataType="forms9PatchLinkTest:MainPage">
+
+	<StackLayout>
+		<f9P:Label x:Name="F9PLabel" IsVisible="true" HtmlText="{Binding HtmlText}" Margin="2,2" />
+	</StackLayout>
+
+</ContentPage>
